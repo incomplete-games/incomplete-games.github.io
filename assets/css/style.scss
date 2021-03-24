@@ -12,6 +12,12 @@ header a.button {
     background: transparent url(../images/incomplete-games-logo.png) 0 0 no-repeat;
 }
 
+@media only screen and (max-width: 750px){
+    header a.button{
+      display: none;
+    }
+}
+
 footer {
     clear: both;
 }
